@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag, drop, check</title>
+    <link rel="stylesheet" href="fp02.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="fp02.js" defer></script>
+</head>
+<body>
+    <p>Drag some ingredients into the bowl!</p>
+    <div id="items">
+        <!-- draggable lets the browser start dragging this element. -->
+        <div id="flour" class="item" draggable="true">Flour</div>
+        <div id="egg" class="item" draggable="true">Egg</div>
+        <div id="milk" class="item" draggable="true">Milk</div>
+    </div>
+    <div id="target">"Mixing Bowl"</div>
+    <p id="result" aria-live="polite">Place some ingredients in the bowl!</p>
+</body>
+</html>

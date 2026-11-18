@@ -1,0 +1,24 @@
+body {
+    background: #ffb3e8;
+    padding: 50px;
+}
+h1{
+    background: rgb(252, 255, 157)
+    
+}
+
+.top-section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome {
+    background-color: bisque;
+    padding: 20px;
+      border-left: 6px solid #ff60d7;
+    flex: 2;
+}
+

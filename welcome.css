@@ -1,6 +1,8 @@
 body {
     background: #ffb3e8;
     padding: 50px;
+    border-style: dashed;
+    border-color: #5f3100;
 }
 h1{
   text-align: center;
